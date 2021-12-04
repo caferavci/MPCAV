@@ -1,5 +1,4 @@
 # MPCAV
-
 Quadratic Programming and Model Predictive Control Based Trajectory Optimization for platoons of equipped Cooperative Adaptive Cruise Control (CACC) Vehicles
 
 ## Authors
