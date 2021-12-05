@@ -48,4 +48,15 @@ We utilise the optimisation software Gurobi (27) for solving the optimisation pr
 
 ## Experiments
 
+### Behaviours of CAVs in platoon level
+
+In this section, we perform two experiments to demonstrate how to optimize vehicle trajectories to show the effectiveness of the concept. To compare effectiveness of developed model, benchmark has been performed with ACC model (Milanés and Shladover, 2014).
+
+Milanés, V., Shladover, S.E., 2014. Modeling cooperative and autonomous adaptive cruise control dynamic responses using experimental data. Transportation Research Part C: Emerging Technologies 48. doi:10.391016/j.trc.2014.09.001.
+
+We simulate a platoon of 5 CAVs following an HDV. To simulate behaviors of CAVs, wedesigned two different scenarios as follows:
+
+* In the first scenario, the HDV brakes suddenly with minimum deceleration rate in the1middle of simulation from 108 km/h to 36 km/h.
+* In the second scenario, the HDV accelerates with maximum rate suddenly in the middle3of simulation from 36 km/h to 108 km/h.
+
 
