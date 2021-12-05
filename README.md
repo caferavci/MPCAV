@@ -28,3 +28,10 @@ The objective of this research is to develop and test a trajectory optimisation 
 
 ## Methodology
 
+
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/CACC_Model.jpg)
+
+
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/MPC_Fig.jpg)
+
+
