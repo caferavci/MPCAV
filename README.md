@@ -28,10 +28,24 @@ The objective of this research is to develop and test a trajectory optimisation 
 
 ## Methodology
 
+A platoon is described by a sequence of vehicles where each vehicle feature sensors capable of measuring distance and speed from the preceding (and, in some cases, also the following) one, while being also capable of communicating its control actions, e.g., accelerations, via V2V (vehicle-to-vehicle) communication. In particular, we assume that all vehicles in a platoon, with exception of the leading vehicle, i.e., the first vehicle in the platoon, implement CACC as the longitudinal controller. This study adopts the model by Van Arem et al., based on previous simulation studies focusing on deterministic acceleration, to calculate the acceleration of CAVs. This model has been chosen as, with appropriate parameter choice, guarantees smooth responses and string stability. 
+
+Van Arem, B., Van Driel, C. J., & Visser, R. 2006. The impact of cooperative adaptive cruise control on traffic-flow characteristics. IEEE Transactions on intelligent transportation systems, 7(4), 429-436.
 
 ![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/CACC_Model.jpg)
 
+As previously stated, the QP problem is implemented in an MPC framework, in order to reject any past inaccuracies and to maintain the difference between the model predictions, e.g., the HDV trajectory, and the real process outcome at low levels. 
 
 ![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/MPC_Fig.jpg)
+
+The idea behind MPC is sketched in Figure 1. The procedure for implementing the controller follows the following steps:
+1. The platoon leader detects the distance and speed of its HDV predecessor at time k; platoon-level information is exchanged via V2V among vehicle in the platoon.
+2. A prediction of the HDV trajectory is made for horizon [k,k+t_hor), by using current and historical information on its movement.
+3. The optimisation problem presented above is solved for time horizon [k,k+t_hor).
+4. The optimal control action is implemented for the duration of the control step, e.g., [k,k+1).
+
+We utilise the optimisation software Gurobi (27) for solving the optimisation problem. Simulation codes written are written in C++, and experiments are performed with Aimsun traffic modelling software. Optimization framework dynamically link to Aimsun API so that MPC can be executed in every control time step. After each control time step, predicted trajectory HDV is calculated for time horizon by averaging  using current and past real control time step movements which are exchanged with Aimsun API and optimization framework. Proposed algorithm and simulation environment produce results within very short time because of the optimisation approach structure and selected programming language. Computation times can be change initial settings of MPC and simulation environment. 
+
+## Experiments
 
 
