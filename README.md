@@ -59,7 +59,7 @@ We simulate a platoon of 5 CAVs following an HDV. To simulate behaviors of CAVs,
 * In the first scenario, the HDV brakes suddenly with minimum deceleration rate in the1middle of simulation from 108 km/h to 36 km/h.
 * In the second scenario, the HDV accelerates with maximum rate suddenly in the middle3of simulation from 36 km/h to 108 km/h.
 
-[alt text](https://github.com/caferavci/MPCAV/blob/main/Media/SCN1.jpg)
-
-[alt text](https://github.com/caferavci/MPCAV/blob/main/Media/SCN2.jpg)
-
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/SCN1.jpg)
+Fig.1: Trajectory and speed profiles of proposed scenarios - 1
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/SCN2.jpg)
+Fig.2: Trajectory and speed profiles of proposed scenarios - 2
