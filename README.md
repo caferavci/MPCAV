@@ -68,3 +68,14 @@ Fig.1: Trajectory and speed profiles of proposed scenarios - 1
 Fig.2: Trajectory and speed profiles of proposed scenarios - 2
 
 
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Accelerations_MPC_vs_ACC_1.jpg)
+
+Fig.3: Trajectory and speed profiles of proposed scenarios
+
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Velocities_ACC_1.jpg)
+
+Fig.4: Trajectory and speed profiles of proposed scenarios
+
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Velocities_MPC_1.jpg)
+
+Fig.5: Trajectory and speed profiles of proposed scenarios
