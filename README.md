@@ -90,3 +90,7 @@ Fig.7: Velocities of vehicles by using ACC model for scenario 2
 ![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Velocities_MPC_1.jpg)
 
 Fig.8: Velocities of vehicles by using ACC model for scenario 2
+
+### Behaviours of CAVs in network level
+
+In this section there will be experimental results in ring road, curve road scenario from Greece, and Antwerp ring network from Belgium. Results will contain dynamic headway optimization in upper-level layer by using Mosek.
