@@ -67,15 +67,26 @@ Fig.1: Trajectory and speed profiles of proposed scenarios - 1
 
 Fig.2: Trajectory and speed profiles of proposed scenarios - 2
 
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Accelerations_MPC_vs_ACC_2.jpg)
+
+Fig.3: Acceleration comparison of MPC and ACC approach for scenario 1
+
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Velocities_ACC_2.jpg)
+
+Fig.4: Velocities of vehicles by using ACC model for scenario 1
+
+![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Velocities_MPC_2.jpg)
+
+Fig.5: Velocities of vehicles by using ACC model for scenario 1
 
 ![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Accelerations_MPC_vs_ACC_1.jpg)
 
-Fig.3: Trajectory and speed profiles of proposed scenarios
+Fig.6: Acceleration comparison of MPC and ACC approach for scenario 2
 
 ![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Velocities_ACC_1.jpg)
 
-Fig.4: Trajectory and speed profiles of proposed scenarios
+Fig.7: Velocities of vehicles by using ACC model for scenario 2
 
 ![alt text](https://github.com/caferavci/MPCAV/blob/main/Media/Velocities_MPC_1.jpg)
 
-Fig.5: Trajectory and speed profiles of proposed scenarios
+Fig.8: Velocities of vehicles by using ACC model for scenario 2
